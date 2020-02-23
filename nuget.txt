@@ -1,0 +1,26 @@
+Enable-Migrations -ContextType ApplicationDbContext
+
+Add-Migration FirstNameLastName  //gotta name it
+
+Update-Database -script
+
+Update-Database -verbose
+
+//orrrrr
+
+Update-Database -TargetMigration FirstNameLastName
+
+//RollBack
+
+Update-Database -TargetMigration InitialCreate
+
+
+
+
+
+
+
+
+
+
+

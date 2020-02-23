@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c3935cfc23a04258b631a7edcc96fe76" Name="Diagram1">
+        <EntityTypeShape EntityType="CMSComputersModel.Bid" Width="1.5" PointX="3" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="CMSComputersModel.ContractType" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CMSComputersModel.Customer" Width="1.5" PointX="0.75" PointY="13" IsExpanded="true" />
+        <EntityTypeShape EntityType="CMSComputersModel.Employee" Width="1.5" PointX="0.75" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="CMSComputersModel.Invoice" Width="1.5" PointX="6" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CMSComputersModel.InvoiceLine" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CMSComputersModel.Role" Width="1.5" PointX="0.75" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CMSComputersModel.RoleAssignment" Width="1.5" PointX="3" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CMSComputersModel.status" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CMSComputersModel.Workorder" Width="1.5" PointX="8.25" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CMSComputersModel.WorkorderHour" Width="1.5" PointX="3" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CMSComputersModel.WorkorderItem" Width="1.5" PointX="3" PointY="20.75" IsExpanded="true" />
+        <AssociationConnector Association="CMSComputersModel.FK_Bid_CustomerID" ManuallyRouted="false" />
+        <AssociationConnector Association="CMSComputersModel.FK_Bid_EmployeeID" ManuallyRouted="false" />
+        <AssociationConnector Association="CMSComputersModel.FK_Workorder_BidID" ManuallyRouted="false" />
+        <AssociationConnector Association="CMSComputersModel.FK_Invoice_CustomerID" ManuallyRouted="false" />
+        <AssociationConnector Association="CMSComputersModel.FK_Workorder_CustomerID" ManuallyRouted="false" />
+        <AssociationConnector Association="CMSComputersModel.FK_Assignments_EmployeeID" ManuallyRouted="false" />
+        <AssociationConnector Association="CMSComputersModel.FK_Invoice_EmployeeID" ManuallyRouted="false" />
+        <AssociationConnector Association="CMSComputersModel.FK_Workorder_EmployeeID" ManuallyRouted="false" />
+        <AssociationConnector Association="CMSComputersModel.FK_WorkorderHours_EmployeeID" ManuallyRouted="false" />
+        <AssociationConnector Association="CMSComputersModel.FK_WorkorderItems_EmployeeID" ManuallyRouted="false" />
+        <AssociationConnector Association="CMSComputersModel.FK_Assignments_RoleID1" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

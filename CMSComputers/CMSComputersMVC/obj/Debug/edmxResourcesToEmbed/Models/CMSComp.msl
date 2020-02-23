@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="CMSComputersModelStoreContainer" CdmEntityContainer="CMSComputersEntities">
+    <EntitySetMapping Name="Bids">
+      <EntityTypeMapping TypeName="CMSComputersModel.Bid">
+        <MappingFragment StoreEntitySet="Bid">
+          <ScalarProperty Name="BidID" ColumnName="BidID" />
+          <ScalarProperty Name="BidDate" ColumnName="BidDate" />
+          <ScalarProperty Name="ExpectedDate" ColumnName="ExpectedDate" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="ContractType" ColumnName="ContractType" />
+          <ScalarProperty Name="ContractAmount" ColumnName="ContractAmount" />
+          <ScalarProperty Name="PartsMarkup" ColumnName="PartsMarkup" />
+          <ScalarProperty Name="HourlyRate" ColumnName="HourlyRate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ContractTypes">
+      <EntityTypeMapping TypeName="CMSComputersModel.ContractType">
+        <MappingFragment StoreEntitySet="ContractType">
+          <ScalarProperty Name="ContractTypeID" ColumnName="ContractTypeID" />
+          <ScalarProperty Name="ContractTypeName" ColumnName="ContractTypeName" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Customers">
+      <EntityTypeMapping TypeName="CMSComputersModel.Customer">
+        <MappingFragment StoreEntitySet="Customer">
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="BusinessName" ColumnName="BusinessName" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="Zip" ColumnName="Zip" />
+          <ScalarProperty Name="LocalPhone" ColumnName="LocalPhone" />
+          <ScalarProperty Name="EmailAddress" ColumnName="EmailAddress" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Employees">
+      <EntityTypeMapping TypeName="CMSComputersModel.Employee">
+        <MappingFragment StoreEntitySet="Employee">
+          <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="LocalPhone" ColumnName="LocalPhone" />
+          <ScalarProperty Name="EmailAddress" ColumnName="EmailAddress" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Invoices">
+      <EntityTypeMapping TypeName="CMSComputersModel.Invoice">
+        <MappingFragment StoreEntitySet="Invoice">
+          <ScalarProperty Name="InvoiceNo" ColumnName="InvoiceNo" />
+          <ScalarProperty Name="InvoiceDate" ColumnName="InvoiceDate" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+          <ScalarProperty Name="InvoiceTotal" ColumnName="InvoiceTotal" />
+          <ScalarProperty Name="ContractType" ColumnName="ContractType" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="InvoiceLines">
+      <EntityTypeMapping TypeName="CMSComputersModel.InvoiceLine">
+        <MappingFragment StoreEntitySet="InvoiceLines">
+          <ScalarProperty Name="InvoiceNo" ColumnName="InvoiceNo" />
+          <ScalarProperty Name="LineNumber" ColumnName="LineNumber" />
+          <ScalarProperty Name="LineDescription" ColumnName="LineDescription" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Roles">
+      <EntityTypeMapping TypeName="CMSComputersModel.Role">
+        <MappingFragment StoreEntitySet="Role">
+          <ScalarProperty Name="RoleID" ColumnName="RoleID" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RoleAssignments">
+      <EntityTypeMapping TypeName="CMSComputersModel.RoleAssignment">
+        <MappingFragment StoreEntitySet="RoleAssignments">
+          <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+          <ScalarProperty Name="RoleID" ColumnName="RoleID" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="status">
+      <EntityTypeMapping TypeName="CMSComputersModel.status">
+        <MappingFragment StoreEntitySet="status">
+          <ScalarProperty Name="StatusID" ColumnName="StatusID" />
+          <ScalarProperty Name="statusName" ColumnName="statusName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Workorders">
+      <EntityTypeMapping TypeName="CMSComputersModel.Workorder">
+        <MappingFragment StoreEntitySet="Workorder">
+          <ScalarProperty Name="WorkorderID" ColumnName="WorkorderID" />
+          <ScalarProperty Name="WorkorderDate" ColumnName="WorkorderDate" />
+          <ScalarProperty Name="BidID" ColumnName="BidID" />
+          <ScalarProperty Name="ExpectedDate" ColumnName="ExpectedDate" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+          <ScalarProperty Name="WorkOrderStatus" ColumnName="WorkOrderStatus" />
+          <ScalarProperty Name="ContractType" ColumnName="ContractType" />
+          <ScalarProperty Name="ContractAmount" ColumnName="ContractAmount" />
+          <ScalarProperty Name="PartsMarkup" ColumnName="PartsMarkup" />
+          <ScalarProperty Name="HourlyRate" ColumnName="HourlyRate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="WorkorderHours">
+      <EntityTypeMapping TypeName="CMSComputersModel.WorkorderHour">
+        <MappingFragment StoreEntitySet="WorkorderHours">
+          <ScalarProperty Name="WorkorderID" ColumnName="WorkorderID" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+          <ScalarProperty Name="HoursBid" ColumnName="HoursBid" />
+          <ScalarProperty Name="PricePerHour" ColumnName="PricePerHour" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="WorkorderItems">
+      <EntityTypeMapping TypeName="CMSComputersModel.WorkorderItem">
+        <MappingFragment StoreEntitySet="WorkorderItems">
+          <ScalarProperty Name="WorkorderID" ColumnName="WorkorderID" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="ItemName" ColumnName="ItemName" />
+          <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="ItemCost" ColumnName="ItemCost" />
+          <ScalarProperty Name="ItemSalePrice" ColumnName="ItemSalePrice" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="sp_CheckPassword" FunctionName="CMSComputersModel.Store.sp_CheckPassword" />
+    <FunctionImportMapping FunctionImportName="sp_GetEmployeeInfo" FunctionName="CMSComputersModel.Store.sp_GetEmployeeInfo">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="CMSComputersModel.sp_GetEmployeeInfo_Result">
+          <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="LocalPhone" ColumnName="LocalPhone" />
+          <ScalarProperty Name="EmailAddress" ColumnName="EmailAddress" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_GetRoles" FunctionName="CMSComputersModel.Store.sp_GetRoles" />
+    <FunctionImportMapping FunctionImportName="sp_UpdatePassword" FunctionName="CMSComputersModel.Store.sp_UpdatePassword" />
+    <FunctionImportMapping FunctionImportName="spInsertBid" FunctionName="CMSComputersModel.Store.spInsertBid" />
+    <FunctionImportMapping FunctionImportName="spInsertCustomer" FunctionName="CMSComputersModel.Store.spInsertCustomer" />
+    <FunctionImportMapping FunctionImportName="spInsertEmployee" FunctionName="CMSComputersModel.Store.spInsertEmployee" />
+    <FunctionImportMapping FunctionImportName="spInsertWorkorder" FunctionName="CMSComputersModel.Store.spInsertWorkorder" />
+    <FunctionImportMapping FunctionImportName="spUpdateBid" FunctionName="CMSComputersModel.Store.spUpdateBid" />
+    <FunctionImportMapping FunctionImportName="spUpdateBidStatus" FunctionName="CMSComputersModel.Store.spUpdateBidStatus" />
+    <FunctionImportMapping FunctionImportName="spUpdateCustomer" FunctionName="CMSComputersModel.Store.spUpdateCustomer" />
+    <FunctionImportMapping FunctionImportName="spUpdateEmployee" FunctionName="CMSComputersModel.Store.spUpdateEmployee" />
+    <FunctionImportMapping FunctionImportName="spUpdateWorkorder" FunctionName="CMSComputersModel.Store.spUpdateWorkorder" />
+  </EntityContainerMapping>
+</Mapping>

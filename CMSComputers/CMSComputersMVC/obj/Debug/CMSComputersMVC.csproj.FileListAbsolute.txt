@@ -1,0 +1,185 @@
+F:\CMSComputers\CMSComputersMVC\bin\CMSComputersMVC.dll.config
+F:\CMSComputers\CMSComputersMVC\bin\CMSComputersMVC.dll
+F:\CMSComputers\CMSComputersMVC\bin\CMSComputersMVC.pdb
+F:\CMSComputers\CMSComputersMVC\bin\Antlr3.Runtime.dll
+F:\CMSComputers\CMSComputersMVC\bin\EntityFramework.dll
+F:\CMSComputers\CMSComputersMVC\bin\EntityFramework.SqlServer.dll
+F:\CMSComputers\CMSComputersMVC\bin\Microsoft.AspNet.Identity.Core.dll
+F:\CMSComputers\CMSComputersMVC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\CMSComputers\CMSComputersMVC\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\CMSComputers\CMSComputersMVC\bin\Microsoft.Owin.dll
+F:\CMSComputers\CMSComputersMVC\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\CMSComputers\CMSComputersMVC\bin\Microsoft.Owin.Security.Cookies.dll
+F:\CMSComputers\CMSComputersMVC\bin\Microsoft.Owin.Security.dll
+F:\CMSComputers\CMSComputersMVC\bin\Microsoft.Owin.Security.Facebook.dll
+F:\CMSComputers\CMSComputersMVC\bin\Microsoft.Owin.Security.Google.dll
+F:\CMSComputers\CMSComputersMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\CMSComputers\CMSComputersMVC\bin\Microsoft.Owin.Security.OAuth.dll
+F:\CMSComputers\CMSComputersMVC\bin\Microsoft.Owin.Security.Twitter.dll
+F:\CMSComputers\CMSComputersMVC\bin\Microsoft.Web.Infrastructure.dll
+F:\CMSComputers\CMSComputersMVC\bin\Newtonsoft.Json.dll
+F:\CMSComputers\CMSComputersMVC\bin\Owin.dll
+F:\CMSComputers\CMSComputersMVC\bin\System.Web.Helpers.dll
+F:\CMSComputers\CMSComputersMVC\bin\System.Web.Mvc.dll
+F:\CMSComputers\CMSComputersMVC\bin\System.Web.Optimization.dll
+F:\CMSComputers\CMSComputersMVC\bin\System.Web.Razor.dll
+F:\CMSComputers\CMSComputersMVC\bin\System.Web.WebPages.Deployment.dll
+F:\CMSComputers\CMSComputersMVC\bin\System.Web.WebPages.dll
+F:\CMSComputers\CMSComputersMVC\bin\System.Web.WebPages.Razor.dll
+F:\CMSComputers\CMSComputersMVC\bin\WebGrease.dll
+F:\CMSComputers\CMSComputersMVC\bin\System.Web.Helpers.xml
+F:\CMSComputers\CMSComputersMVC\bin\System.Web.Mvc.xml
+F:\CMSComputers\CMSComputersMVC\bin\System.Web.Optimization.xml
+F:\CMSComputers\CMSComputersMVC\bin\System.Web.Razor.xml
+F:\CMSComputers\CMSComputersMVC\bin\System.Web.WebPages.xml
+F:\CMSComputers\CMSComputersMVC\bin\System.Web.WebPages.Deployment.xml
+F:\CMSComputers\CMSComputersMVC\bin\System.Web.WebPages.Razor.xml
+F:\CMSComputers\CMSComputersMVC\bin\Antlr3.Runtime.pdb
+F:\CMSComputers\CMSComputersMVC\bin\Newtonsoft.Json.xml
+F:\CMSComputers\CMSComputersMVC\bin\EntityFramework.xml
+F:\CMSComputers\CMSComputersMVC\bin\EntityFramework.SqlServer.xml
+F:\CMSComputers\CMSComputersMVC\bin\Microsoft.AspNet.Identity.Core.xml
+F:\CMSComputers\CMSComputersMVC\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\CMSComputers\CMSComputersMVC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\CMSComputers\CMSComputersMVC\bin\Microsoft.Owin.xml
+F:\CMSComputers\CMSComputersMVC\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\CMSComputers\CMSComputersMVC\bin\Microsoft.Owin.Security.xml
+F:\CMSComputers\CMSComputersMVC\bin\Microsoft.Owin.Security.Facebook.xml
+F:\CMSComputers\CMSComputersMVC\bin\Microsoft.Owin.Security.Cookies.xml
+F:\CMSComputers\CMSComputersMVC\bin\Microsoft.Owin.Security.OAuth.xml
+F:\CMSComputers\CMSComputersMVC\bin\Microsoft.Owin.Security.Google.xml
+F:\CMSComputers\CMSComputersMVC\bin\Microsoft.Owin.Security.Twitter.xml
+F:\CMSComputers\CMSComputersMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\CMSComputers\CMSComputersMVC\obj\Debug\CMSComputersMVC.csprojResolveAssemblyReference.cache
+F:\CMSComputers\CMSComputersMVC\obj\Debug\CMSComputersMVC.dll
+F:\CMSComputers\CMSComputersMVC\obj\Debug\CMSComputersMVC.pdb
+F:\Dot Net 3\_Project\CMSComputers\CMSComputersMVC\bin\CMSComputersMVC.dll.config
+F:\Dot Net 3\_Project\CMSComputers\CMSComputersMVC\bin\CMSComputersMVC.dll
+F:\Dot Net 3\_Project\CMSComputers\CMSComputersMVC\bin\CMSComputersMVC.pdb
+F:\Dot Net 3\_Project\CMSComputers\CMSComputersMVC\bin\Antlr3.Runtime.dll
+F:\Dot Net 3\_Project\CMSComputers\CMSComputersMVC\bin\EntityFramework.dll
+F:\Dot Net 3\_Project\CMSComputers\CMSComputersMVC\bin\EntityFramework.SqlServer.dll
+F:\Dot Net 3\_Project\CMSComputers\CMSComputersMVC\bin\Microsoft.AspNet.Identity.Core.dll
+F:\Dot Net 3\_Project\CMSComputers\CMSComputersMVC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\Dot Net 3\_Project\CMSComputers\CMSComputersMVC\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\Dot Net 3\_Project\CMSComputers\CMSComputersMVC\bin\Microsoft.Owin.dll
+F:\Dot Net 3\_Project\CMSComputers\CMSComputersMVC\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\Dot Net 3\_Project\CMSComputers\CMSComputersMVC\bin\Microsoft.Owin.Security.Cookies.dll
+F:\Dot Net 3\_Project\CMSComputers\CMSComputersMVC\bin\Microsoft.Owin.Security.dll
+F:\Dot Net 3\_Project\CMSComputers\CMSComputersMVC\bin\Microsoft.Owin.Security.Facebook.dll
+F:\Dot Net 3\_Project\CMSComputers\CMSComputersMVC\bin\Microsoft.Owin.Security.Google.dll
+F:\Dot Net 3\_Project\CMSComputers\CMSComputersMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\Dot Net 3\_Project\CMSComputers\CMSComputersMVC\bin\Microsoft.Owin.Security.OAuth.dll
+F:\Dot Net 3\_Project\CMSComputers\CMSComputersMVC\bin\Microsoft.Owin.Security.Twitter.dll
+F:\Dot Net 3\_Project\CMSComputers\CMSComputersMVC\bin\Microsoft.Web.Infrastructure.dll
+F:\Dot Net 3\_Project\CMSComputers\CMSComputersMVC\bin\Newtonsoft.Json.dll
+F:\Dot Net 3\_Project\CMSComputers\CMSComputersMVC\bin\Owin.dll
+F:\Dot Net 3\_Project\CMSComputers\CMSComputersMVC\bin\System.Web.Helpers.dll
+F:\Dot Net 3\_Project\CMSComputers\CMSComputersMVC\bin\System.Web.Mvc.dll
+F:\Dot Net 3\_Project\CMSComputers\CMSComputersMVC\bin\System.Web.Optimization.dll
+F:\Dot Net 3\_Project\CMSComputers\CMSComputersMVC\bin\System.Web.Razor.dll
+F:\Dot Net 3\_Project\CMSComputers\CMSComputersMVC\bin\System.Web.WebPages.Deployment.dll
+F:\Dot Net 3\_Project\CMSComputers\CMSComputersMVC\bin\System.Web.WebPages.dll
+F:\Dot Net 3\_Project\CMSComputers\CMSComputersMVC\bin\System.Web.WebPages.Razor.dll
+F:\Dot Net 3\_Project\CMSComputers\CMSComputersMVC\bin\WebGrease.dll
+F:\Dot Net 3\_Project\CMSComputers\CMSComputersMVC\bin\Antlr3.Runtime.pdb
+F:\Dot Net 3\_Project\CMSComputers\CMSComputersMVC\bin\Newtonsoft.Json.xml
+F:\Dot Net 3\_Project\CMSComputers\CMSComputersMVC\bin\System.Web.Helpers.xml
+F:\Dot Net 3\_Project\CMSComputers\CMSComputersMVC\bin\System.Web.Mvc.xml
+F:\Dot Net 3\_Project\CMSComputers\CMSComputersMVC\bin\System.Web.Optimization.xml
+F:\Dot Net 3\_Project\CMSComputers\CMSComputersMVC\bin\System.Web.Razor.xml
+F:\Dot Net 3\_Project\CMSComputers\CMSComputersMVC\bin\System.Web.WebPages.xml
+F:\Dot Net 3\_Project\CMSComputers\CMSComputersMVC\bin\System.Web.WebPages.Deployment.xml
+F:\Dot Net 3\_Project\CMSComputers\CMSComputersMVC\bin\System.Web.WebPages.Razor.xml
+F:\Dot Net 3\_Project\CMSComputers\CMSComputersMVC\bin\EntityFramework.xml
+F:\Dot Net 3\_Project\CMSComputers\CMSComputersMVC\bin\EntityFramework.SqlServer.xml
+F:\Dot Net 3\_Project\CMSComputers\CMSComputersMVC\bin\Microsoft.AspNet.Identity.Core.xml
+F:\Dot Net 3\_Project\CMSComputers\CMSComputersMVC\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\Dot Net 3\_Project\CMSComputers\CMSComputersMVC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\Dot Net 3\_Project\CMSComputers\CMSComputersMVC\bin\Microsoft.Owin.xml
+F:\Dot Net 3\_Project\CMSComputers\CMSComputersMVC\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\Dot Net 3\_Project\CMSComputers\CMSComputersMVC\bin\Microsoft.Owin.Security.xml
+F:\Dot Net 3\_Project\CMSComputers\CMSComputersMVC\bin\Microsoft.Owin.Security.Facebook.xml
+F:\Dot Net 3\_Project\CMSComputers\CMSComputersMVC\bin\Microsoft.Owin.Security.Cookies.xml
+F:\Dot Net 3\_Project\CMSComputers\CMSComputersMVC\bin\Microsoft.Owin.Security.OAuth.xml
+F:\Dot Net 3\_Project\CMSComputers\CMSComputersMVC\bin\Microsoft.Owin.Security.Google.xml
+F:\Dot Net 3\_Project\CMSComputers\CMSComputersMVC\bin\Microsoft.Owin.Security.Twitter.xml
+F:\Dot Net 3\_Project\CMSComputers\CMSComputersMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\Dot Net 3\_Project\CMSComputers\CMSComputersMVC\obj\Debug\CMSComputersMVC.csprojResolveAssemblyReference.cache
+F:\Dot Net 3\_Project\CMSComputers\CMSComputersMVC\obj\Debug\CMSComputersMVC.dll
+F:\Dot Net 3\_Project\CMSComputers\CMSComputersMVC\obj\Debug\CMSComputersMVC.pdb
+F:\Dot Net 3\_Project\CMSComputers\CMSComputersMVC\obj\Debug\CMSComputersMVC.Migrations.InitialCreate.resources
+F:\Dot Net 3\_Project\CMSComputers\CMSComputersMVC\obj\Debug\CMSComputersMVC.csproj.GenerateResource.Cache
+F:\Dot Net 3\_Project\CMSComputers\CMSComputersMVC\obj\Debug\CMSComputersMVC.Migrations.ChrisSheehan.resources
+F:\Dot Net 3\_Project\CMSComputers\CMSComputersMVC\bin\BusinessLogic.dll
+F:\Dot Net 3\_Project\CMSComputers\CMSComputersMVC\bin\BusinessObjects.dll
+F:\Dot Net 3\_Project\CMSComputers\CMSComputersMVC\bin\DataAccessObjects.dll
+F:\Dot Net 3\_Project\CMSComputers\CMSComputersMVC\bin\BusinessLogic.pdb
+F:\Dot Net 3\_Project\CMSComputers\CMSComputersMVC\bin\BusinessObjects.pdb
+F:\Dot Net 3\_Project\CMSComputers\CMSComputersMVC\bin\DataAccessObjects.pdb
+C:\Users\cshee\Google Drive\_Project\CMSComputers\CMSComputersMVC\bin\CMSComputersMVC.dll.config
+C:\Users\cshee\Google Drive\_Project\CMSComputers\CMSComputersMVC\bin\CMSComputersMVC.dll
+C:\Users\cshee\Google Drive\_Project\CMSComputers\CMSComputersMVC\bin\CMSComputersMVC.pdb
+C:\Users\cshee\Google Drive\_Project\CMSComputers\CMSComputersMVC\bin\Antlr3.Runtime.dll
+C:\Users\cshee\Google Drive\_Project\CMSComputers\CMSComputersMVC\bin\BusinessLogic.dll
+C:\Users\cshee\Google Drive\_Project\CMSComputers\CMSComputersMVC\bin\BusinessObjects.dll
+C:\Users\cshee\Google Drive\_Project\CMSComputers\CMSComputersMVC\bin\EntityFramework.dll
+C:\Users\cshee\Google Drive\_Project\CMSComputers\CMSComputersMVC\bin\EntityFramework.SqlServer.dll
+C:\Users\cshee\Google Drive\_Project\CMSComputers\CMSComputersMVC\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\cshee\Google Drive\_Project\CMSComputers\CMSComputersMVC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\cshee\Google Drive\_Project\CMSComputers\CMSComputersMVC\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\cshee\Google Drive\_Project\CMSComputers\CMSComputersMVC\bin\Microsoft.Owin.dll
+C:\Users\cshee\Google Drive\_Project\CMSComputers\CMSComputersMVC\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\cshee\Google Drive\_Project\CMSComputers\CMSComputersMVC\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\cshee\Google Drive\_Project\CMSComputers\CMSComputersMVC\bin\Microsoft.Owin.Security.dll
+C:\Users\cshee\Google Drive\_Project\CMSComputers\CMSComputersMVC\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\cshee\Google Drive\_Project\CMSComputers\CMSComputersMVC\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\cshee\Google Drive\_Project\CMSComputers\CMSComputersMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\cshee\Google Drive\_Project\CMSComputers\CMSComputersMVC\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\cshee\Google Drive\_Project\CMSComputers\CMSComputersMVC\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\cshee\Google Drive\_Project\CMSComputers\CMSComputersMVC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\cshee\Google Drive\_Project\CMSComputers\CMSComputersMVC\bin\Newtonsoft.Json.dll
+C:\Users\cshee\Google Drive\_Project\CMSComputers\CMSComputersMVC\bin\Owin.dll
+C:\Users\cshee\Google Drive\_Project\CMSComputers\CMSComputersMVC\bin\System.Web.Helpers.dll
+C:\Users\cshee\Google Drive\_Project\CMSComputers\CMSComputersMVC\bin\System.Web.Mvc.dll
+C:\Users\cshee\Google Drive\_Project\CMSComputers\CMSComputersMVC\bin\System.Web.Optimization.dll
+C:\Users\cshee\Google Drive\_Project\CMSComputers\CMSComputersMVC\bin\System.Web.Razor.dll
+C:\Users\cshee\Google Drive\_Project\CMSComputers\CMSComputersMVC\bin\System.Web.WebPages.Deployment.dll
+C:\Users\cshee\Google Drive\_Project\CMSComputers\CMSComputersMVC\bin\System.Web.WebPages.dll
+C:\Users\cshee\Google Drive\_Project\CMSComputers\CMSComputersMVC\bin\System.Web.WebPages.Razor.dll
+C:\Users\cshee\Google Drive\_Project\CMSComputers\CMSComputersMVC\bin\WebGrease.dll
+C:\Users\cshee\Google Drive\_Project\CMSComputers\CMSComputersMVC\bin\DataAccessObjects.dll
+C:\Users\cshee\Google Drive\_Project\CMSComputers\CMSComputersMVC\bin\BusinessLogic.pdb
+C:\Users\cshee\Google Drive\_Project\CMSComputers\CMSComputersMVC\bin\BusinessObjects.pdb
+C:\Users\cshee\Google Drive\_Project\CMSComputers\CMSComputersMVC\bin\Antlr3.Runtime.pdb
+C:\Users\cshee\Google Drive\_Project\CMSComputers\CMSComputersMVC\bin\Newtonsoft.Json.xml
+C:\Users\cshee\Google Drive\_Project\CMSComputers\CMSComputersMVC\bin\System.Web.Helpers.xml
+C:\Users\cshee\Google Drive\_Project\CMSComputers\CMSComputersMVC\bin\System.Web.Mvc.xml
+C:\Users\cshee\Google Drive\_Project\CMSComputers\CMSComputersMVC\bin\System.Web.Optimization.xml
+C:\Users\cshee\Google Drive\_Project\CMSComputers\CMSComputersMVC\bin\System.Web.Razor.xml
+C:\Users\cshee\Google Drive\_Project\CMSComputers\CMSComputersMVC\bin\System.Web.WebPages.xml
+C:\Users\cshee\Google Drive\_Project\CMSComputers\CMSComputersMVC\bin\System.Web.WebPages.Deployment.xml
+C:\Users\cshee\Google Drive\_Project\CMSComputers\CMSComputersMVC\bin\System.Web.WebPages.Razor.xml
+C:\Users\cshee\Google Drive\_Project\CMSComputers\CMSComputersMVC\bin\EntityFramework.xml
+C:\Users\cshee\Google Drive\_Project\CMSComputers\CMSComputersMVC\bin\EntityFramework.SqlServer.xml
+C:\Users\cshee\Google Drive\_Project\CMSComputers\CMSComputersMVC\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\cshee\Google Drive\_Project\CMSComputers\CMSComputersMVC\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\cshee\Google Drive\_Project\CMSComputers\CMSComputersMVC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\cshee\Google Drive\_Project\CMSComputers\CMSComputersMVC\bin\Microsoft.Owin.xml
+C:\Users\cshee\Google Drive\_Project\CMSComputers\CMSComputersMVC\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\cshee\Google Drive\_Project\CMSComputers\CMSComputersMVC\bin\Microsoft.Owin.Security.xml
+C:\Users\cshee\Google Drive\_Project\CMSComputers\CMSComputersMVC\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\cshee\Google Drive\_Project\CMSComputers\CMSComputersMVC\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\cshee\Google Drive\_Project\CMSComputers\CMSComputersMVC\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\cshee\Google Drive\_Project\CMSComputers\CMSComputersMVC\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\cshee\Google Drive\_Project\CMSComputers\CMSComputersMVC\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\cshee\Google Drive\_Project\CMSComputers\CMSComputersMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\cshee\Google Drive\_Project\CMSComputers\CMSComputersMVC\bin\DataAccessObjects.pdb
+C:\Users\cshee\Google Drive\_Project\CMSComputers\CMSComputersMVC\obj\Debug\CMSComputersMVC.csprojAssemblyReference.cache
+C:\Users\cshee\Google Drive\_Project\CMSComputers\CMSComputersMVC\obj\Debug\CMSComputersMVC.Migrations.InitialCreate.resources
+C:\Users\cshee\Google Drive\_Project\CMSComputers\CMSComputersMVC\obj\Debug\CMSComputersMVC.Migrations.ChrisSheehan.resources
+C:\Users\cshee\Google Drive\_Project\CMSComputers\CMSComputersMVC\obj\Debug\CMSComputersMVC.csproj.GenerateResource.cache
+C:\Users\cshee\Google Drive\_Project\CMSComputers\CMSComputersMVC\obj\Debug\CMSComputersMVC.csproj.CoreCompileInputs.cache
+C:\Users\cshee\Google Drive\_Project\CMSComputers\CMSComputersMVC\obj\Debug\CMSComputersMVC.csproj.CopyComplete
+C:\Users\cshee\Google Drive\_Project\CMSComputers\CMSComputersMVC\obj\Debug\CMSComputersMVC.dll
+C:\Users\cshee\Google Drive\_Project\CMSComputers\CMSComputersMVC\obj\Debug\CMSComputersMVC.pdb

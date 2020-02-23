@@ -1,0 +1,87 @@
+G:\Dot Net 2\Project\CMSComputers\CMSComputers\bin\Debug\CMSComputers.exe.config
+G:\Dot Net 2\Project\CMSComputers\CMSComputers\bin\Debug\CMSComputers.exe
+G:\Dot Net 2\Project\CMSComputers\CMSComputers\bin\Debug\CMSComputers.pdb
+G:\Dot Net 2\Project\CMSComputers\CMSComputers\obj\Debug\CMSComputersWPF.csprojResolveAssemblyReference.cache
+G:\Dot Net 2\Project\CMSComputers\CMSComputers\obj\Debug\MainWindow.g.cs
+G:\Dot Net 2\Project\CMSComputers\CMSComputers\obj\Debug\App.g.cs
+G:\Dot Net 2\Project\CMSComputers\CMSComputers\obj\Debug\CMSComputers_MarkupCompile.cache
+G:\Dot Net 2\Project\CMSComputers\CMSComputers\obj\Debug\CMSComputers_MarkupCompile.lref
+G:\Dot Net 2\Project\CMSComputers\CMSComputers\obj\Debug\MainWindow.baml
+G:\Dot Net 2\Project\CMSComputers\CMSComputers\obj\Debug\CMSComputers.g.resources
+G:\Dot Net 2\Project\CMSComputers\CMSComputers\obj\Debug\CMSComputers.Properties.Resources.resources
+G:\Dot Net 2\Project\CMSComputers\CMSComputers\obj\Debug\CMSComputersWPF.csproj.GenerateResource.Cache
+G:\Dot Net 2\Project\CMSComputers\CMSComputers\obj\Debug\CMSComputers.exe
+G:\Dot Net 2\Project\CMSComputers\CMSComputers\obj\Debug\CMSComputers.pdb
+G:\Dot Net 2\Project\CMSComputers\CMSComputers\bin\Debug\BusinessLogic.dll
+G:\Dot Net 2\Project\CMSComputers\CMSComputers\bin\Debug\BusinessObjects.dll
+G:\Dot Net 2\Project\CMSComputers\CMSComputers\bin\Debug\DataAccessObjects.dll
+G:\Dot Net 2\Project\CMSComputers\CMSComputers\bin\Debug\BusinessLogic.pdb
+G:\Dot Net 2\Project\CMSComputers\CMSComputers\bin\Debug\BusinessObjects.pdb
+G:\Dot Net 2\Project\CMSComputers\CMSComputers\bin\Debug\DataAccessObjects.pdb
+G:\Dot Net 2\Project\CMSComputers\CMSComputers\obj\Debug\Login.baml
+G:\Dot Net 2\Project\CMSComputers\CMSComputers\obj\Debug\Login.g.cs
+G:\Dot Net 2\Project\CMSComputers\CMSComputers\obj\Debug\EditCustomer.g.cs
+G:\Dot Net 2\Project\CMSComputers\CMSComputers\obj\Debug\EditCustomer.baml
+G:\Dot Net 2\Project\CMSComputers\CMSComputers\obj\Debug\Bids.g.cs
+G:\Dot Net 2\Project\CMSComputers\CMSComputers\obj\Debug\Bids.baml
+G:\Dot Net 2\Project\CMSComputers\CMSComputers\obj\Debug\Workorders.g.cs
+G:\Dot Net 2\Project\CMSComputers\CMSComputers\obj\Debug\Workorders.baml
+F:\Dot Net 2\Project\CMSComputers\CMSComputers\bin\Debug\CMSComputers.exe.config
+F:\Dot Net 2\Project\CMSComputers\CMSComputers\obj\Debug\CMSComputers.exe
+F:\Dot Net 2\Project\CMSComputers\CMSComputers\obj\Debug\CMSComputers.pdb
+C:\Users\cmsheeha\Google Drive\Kirkwood\Dot Net 2\Project\CMSComputers\CMSComputers\bin\Debug\CMSComputers.exe.config
+C:\Users\cmsheeha\Google Drive\Kirkwood\Dot Net 2\Project\CMSComputers\CMSComputers\obj\Debug\CMSComputers.exe
+C:\Users\cmsheeha\Google Drive\Kirkwood\Dot Net 2\Project\CMSComputers\CMSComputers\obj\Debug\CMSComputers.pdb
+C:\Users\cmsheeha\Google Drive\Kirkwood\Dot Net 2\Project\CMSComputers\CMSComputers\bin\Debug\CMSComputers.exe
+C:\Users\cmsheeha\Google Drive\Kirkwood\Dot Net 2\Project\CMSComputers\CMSComputers\bin\Debug\CMSComputers.pdb
+C:\Users\cmsheeha\Google Drive\Kirkwood\Dot Net 2\Project\CMSComputers\CMSComputers\bin\Debug\BusinessLogic.dll
+C:\Users\cmsheeha\Google Drive\Kirkwood\Dot Net 2\Project\CMSComputers\CMSComputers\bin\Debug\BusinessObjects.dll
+C:\Users\cmsheeha\Google Drive\Kirkwood\Dot Net 2\Project\CMSComputers\CMSComputers\bin\Debug\DataAccessObjects.dll
+C:\Users\cmsheeha\Google Drive\Kirkwood\Dot Net 2\Project\CMSComputers\CMSComputers\bin\Debug\BusinessLogic.pdb
+C:\Users\cmsheeha\Google Drive\Kirkwood\Dot Net 2\Project\CMSComputers\CMSComputers\bin\Debug\BusinessObjects.pdb
+C:\Users\cmsheeha\Google Drive\Kirkwood\Dot Net 2\Project\CMSComputers\CMSComputers\bin\Debug\DataAccessObjects.pdb
+C:\Users\cmsheeha\Google Drive\Kirkwood\Dot Net 2\Project\CMSComputers\CMSComputers\obj\Debug\CMSComputersWPF.csprojResolveAssemblyReference.cache
+C:\Users\cmsheeha\Google Drive\Kirkwood\Dot Net 2\Project\CMSComputers\CMSComputers\obj\Debug\Login.baml
+C:\Users\cmsheeha\Google Drive\Kirkwood\Dot Net 2\Project\CMSComputers\CMSComputers\obj\Debug\Bids.g.cs
+C:\Users\cmsheeha\Google Drive\Kirkwood\Dot Net 2\Project\CMSComputers\CMSComputers\obj\Debug\EditCustomer.g.cs
+C:\Users\cmsheeha\Google Drive\Kirkwood\Dot Net 2\Project\CMSComputers\CMSComputers\obj\Debug\Login.g.cs
+C:\Users\cmsheeha\Google Drive\Kirkwood\Dot Net 2\Project\CMSComputers\CMSComputers\obj\Debug\MainWindow.g.cs
+C:\Users\cmsheeha\Google Drive\Kirkwood\Dot Net 2\Project\CMSComputers\CMSComputers\obj\Debug\Workorders.g.cs
+C:\Users\cmsheeha\Google Drive\Kirkwood\Dot Net 2\Project\CMSComputers\CMSComputers\obj\Debug\App.g.cs
+C:\Users\cmsheeha\Google Drive\Kirkwood\Dot Net 2\Project\CMSComputers\CMSComputers\obj\Debug\CMSComputers_MarkupCompile.cache
+C:\Users\cmsheeha\Google Drive\Kirkwood\Dot Net 2\Project\CMSComputers\CMSComputers\obj\Debug\CMSComputers_MarkupCompile.lref
+C:\Users\cmsheeha\Google Drive\Kirkwood\Dot Net 2\Project\CMSComputers\CMSComputers\obj\Debug\Bids.baml
+C:\Users\cmsheeha\Google Drive\Kirkwood\Dot Net 2\Project\CMSComputers\CMSComputers\obj\Debug\EditCustomer.baml
+C:\Users\cmsheeha\Google Drive\Kirkwood\Dot Net 2\Project\CMSComputers\CMSComputers\obj\Debug\MainWindow.baml
+C:\Users\cmsheeha\Google Drive\Kirkwood\Dot Net 2\Project\CMSComputers\CMSComputers\obj\Debug\Workorders.baml
+C:\Users\cmsheeha\Google Drive\Kirkwood\Dot Net 2\Project\CMSComputers\CMSComputers\obj\Debug\CMSComputers.g.resources
+C:\Users\cmsheeha\Google Drive\Kirkwood\Dot Net 2\Project\CMSComputers\CMSComputers\obj\Debug\CMSComputers.Properties.Resources.resources
+C:\Users\cmsheeha\Google Drive\Kirkwood\Dot Net 2\Project\CMSComputers\CMSComputers\obj\Debug\CMSComputersWPF.csproj.GenerateResource.Cache
+F:\CMSComputers\CMSComputers\bin\Debug\CMSComputers.exe.config
+F:\CMSComputers\CMSComputers\obj\Debug\CMSComputers.exe
+F:\CMSComputers\CMSComputers\obj\Debug\CMSComputers.pdb
+F:\CMSComputers\CMSComputers\bin\Debug\CMSComputers.exe
+F:\CMSComputers\CMSComputers\bin\Debug\CMSComputers.pdb
+F:\CMSComputers\CMSComputers\bin\Debug\BusinessLogic.dll
+F:\CMSComputers\CMSComputers\bin\Debug\BusinessObjects.dll
+F:\CMSComputers\CMSComputers\bin\Debug\DataAccessObjects.dll
+F:\CMSComputers\CMSComputers\bin\Debug\BusinessLogic.pdb
+F:\CMSComputers\CMSComputers\bin\Debug\BusinessObjects.pdb
+F:\CMSComputers\CMSComputers\bin\Debug\DataAccessObjects.pdb
+F:\CMSComputers\CMSComputers\obj\Debug\CMSComputersWPF.csprojResolveAssemblyReference.cache
+F:\CMSComputers\CMSComputers\obj\Debug\Login.baml
+F:\CMSComputers\CMSComputers\obj\Debug\Bids.g.cs
+F:\CMSComputers\CMSComputers\obj\Debug\EditCustomer.g.cs
+F:\CMSComputers\CMSComputers\obj\Debug\Login.g.cs
+F:\CMSComputers\CMSComputers\obj\Debug\MainWindow.g.cs
+F:\CMSComputers\CMSComputers\obj\Debug\Workorders.g.cs
+F:\CMSComputers\CMSComputers\obj\Debug\App.g.cs
+F:\CMSComputers\CMSComputers\obj\Debug\CMSComputers_MarkupCompile.cache
+F:\CMSComputers\CMSComputers\obj\Debug\CMSComputers_MarkupCompile.lref
+F:\CMSComputers\CMSComputers\obj\Debug\Bids.baml
+F:\CMSComputers\CMSComputers\obj\Debug\EditCustomer.baml
+F:\CMSComputers\CMSComputers\obj\Debug\MainWindow.baml
+F:\CMSComputers\CMSComputers\obj\Debug\Workorders.baml
+F:\CMSComputers\CMSComputers\obj\Debug\CMSComputers.g.resources
+F:\CMSComputers\CMSComputers\obj\Debug\CMSComputers.Properties.Resources.resources
+F:\CMSComputers\CMSComputers\obj\Debug\CMSComputersWPF.csproj.GenerateResource.Cache

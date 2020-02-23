@@ -1,0 +1,21 @@
+G:\Dot Net 2\Project\CMSComputers\BusinessObjects\bin\Debug\BusinessObjects.dll
+G:\Dot Net 2\Project\CMSComputers\BusinessObjects\bin\Debug\BusinessObjects.pdb
+G:\Dot Net 2\Project\CMSComputers\BusinessObjects\obj\Debug\BusinessObjects.csprojResolveAssemblyReference.cache
+G:\Dot Net 2\Project\CMSComputers\BusinessObjects\obj\Debug\BusinessObjects.dll
+G:\Dot Net 2\Project\CMSComputers\BusinessObjects\obj\Debug\BusinessObjects.pdb
+C:\Users\cmsheeha\Google Drive\Kirkwood\Dot Net 2\Project\CMSComputers\BusinessObjects\bin\Debug\BusinessObjects.dll
+C:\Users\cmsheeha\Google Drive\Kirkwood\Dot Net 2\Project\CMSComputers\BusinessObjects\bin\Debug\BusinessObjects.pdb
+C:\Users\cmsheeha\Google Drive\Kirkwood\Dot Net 2\Project\CMSComputers\BusinessObjects\obj\Debug\BusinessObjects.csprojResolveAssemblyReference.cache
+C:\Users\cmsheeha\Google Drive\Kirkwood\Dot Net 2\Project\CMSComputers\BusinessObjects\obj\Debug\BusinessObjects.dll
+C:\Users\cmsheeha\Google Drive\Kirkwood\Dot Net 2\Project\CMSComputers\BusinessObjects\obj\Debug\BusinessObjects.pdb
+F:\CMSComputers\BusinessObjects\bin\Debug\BusinessObjects.dll
+F:\CMSComputers\BusinessObjects\bin\Debug\BusinessObjects.pdb
+F:\CMSComputers\BusinessObjects\obj\Debug\BusinessObjects.csprojResolveAssemblyReference.cache
+F:\CMSComputers\BusinessObjects\obj\Debug\BusinessObjects.dll
+F:\CMSComputers\BusinessObjects\obj\Debug\BusinessObjects.pdb
+C:\Users\cshee\Google Drive\_Project\CMSComputers\BusinessObjects\bin\Debug\BusinessObjects.dll
+C:\Users\cshee\Google Drive\_Project\CMSComputers\BusinessObjects\bin\Debug\BusinessObjects.pdb
+C:\Users\cshee\Google Drive\_Project\CMSComputers\BusinessObjects\obj\Debug\BusinessObjects.csprojAssemblyReference.cache
+C:\Users\cshee\Google Drive\_Project\CMSComputers\BusinessObjects\obj\Debug\BusinessObjects.csproj.CoreCompileInputs.cache
+C:\Users\cshee\Google Drive\_Project\CMSComputers\BusinessObjects\obj\Debug\BusinessObjects.dll
+C:\Users\cshee\Google Drive\_Project\CMSComputers\BusinessObjects\obj\Debug\BusinessObjects.pdb

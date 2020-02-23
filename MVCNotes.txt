@@ -1,0 +1,54 @@
+mvc type check box for use individual logins
+
+rt click solution, change to mult startup projs
+	pick mvc to true 
+	wpf start without debug
+	
+go to web config, change conn str.  , do not use actual db name, use something diff
+
+run solution, register a user, confirm it worked
+
+enable code first migrations
+update database 
+
+
+-3 methods need - register, login, change pasword
+
+--register - change register view model	
+	add properties and rules needed for your wpf system user table 
+	ie.[require Display(name = "First Name"]
+	public string firstName
+	(if you don't want the user to fill out something, at reg, it needs to allow nulls in wpf user table).
+	
+-update register view	
+	add controls for users to enter info
+	
+-go into acct controller
+	register action (httppost)
+	if modelState.isValid{
+	
+	}
+	//code to create an accountuser 
+	....
+	if result = success{
+	  //code logs in user 
+	  //var mgr = new bizlogic usermanager
+	  //mgr adduser(pass in model.username, model.password
+	  var wpfuser =  mgr.getuserByUsername(model.username);
+	  if wpfuser != null{
+		this.session["userid"] = wpfuser.userid
+		}
+	
+	}
+
+-login 
+	viewmodel and view s/b ok
+	go into acct controller, login action (if (modelstate.isvalid)) 
+	var mge = new bixlogix.usermanager
+	var mvcuser = mgr.getuserByUsername
+	if mvcuser != null{ this.session....)
+	else{ //log user out, show error pg
+	
+	
+	
+	---entity data model edmx

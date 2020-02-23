@@ -1,0 +1,115 @@
+﻿<Window x:Class="CMSComputers.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CMSComputers"
+        mc:Ignorable="d"
+        Title="CMS Consulting" Height="732.4" Width="951" Loaded="MAin_Loaded">
+    <Window.Resources>
+    </Window.Resources>
+    <Grid>
+        <DockPanel LastChildFill="True">
+            <Menu DockPanel.Dock="Top" Height="Auto">
+                <MenuItem Header="_File">
+                    <MenuItem Name="mnuExit" Header="E_xit" />
+                </MenuItem>
+                <MenuItem Header="_Edit">
+                    <MenuItem Name="mnuPreferences" Header="_Preferences" />
+                </MenuItem>
+                <MenuItem Header="_Help">
+                    <MenuItem Name="mnuHelp" Header="_Help" />
+                </MenuItem>
+            </Menu>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+                    <Label Name="lblLoginMessage" Grid.Column="0" HorizontalAlignment="Right" Content="Not Currently Logged In" />
+                    <Button Name="btnLogin" Grid.Column="1" Padding="10 0 10 0" Margin="9.8,0,2.8,-0.4" Content="Log In" Click="btnLogin_Click" />
+                    <Button Name="btnLogout" Grid.Column="2" Padding="10 0 10 0" Margin="9.8,0,2.8,-0.4" Content="Log Out" Click="btnLogOut_Click" />
+                </Grid>
+                <TabControl Name="TabControl1" Grid.Row="1">
+                    <TabItem Name="tabCustomer" Header="Customers">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="*" />
+                            </Grid.RowDefinitions>
+                            <Grid Grid.Row="0">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="160" />
+                                    <ColumnDefinition Width="30.553" />
+                                    <ColumnDefinition Width="110.447"/>
+                                    <ColumnDefinition Width="100" />
+                                </Grid.ColumnDefinitions>
+                                <Button Name="btnNewCustomer" Grid.Row="0" Width="90" Grid.Column="0" HorizontalAlignment="Left" Margin="5,5,0,5"  Content="New Customer"   VerticalAlignment="Center" Click="btnNewCust_Click" />
+
+
+                            </Grid>
+                            <Grid Grid.Row="1">
+                                <DataGrid Name="gridCustomers"  AutoGenerateColumns="True" MouseDoubleClick="gridCustomers_doubleClick" IsReadOnly="True" SelectionMode="Single" CanUserAddRows="False" Grid.ColumnSpan="3"  />
+                            </Grid>
+                        </Grid>
+                    </TabItem>
+                    <TabItem Name="tabBid" Header="Bids">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="*" />
+                            </Grid.RowDefinitions>
+                            <Grid Grid.Row="0">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="125.993" />
+                                    <ColumnDefinition Width="15.007"/>
+                                    <ColumnDefinition Width="140" />
+                                    <ColumnDefinition Width="160" />
+                                </Grid.ColumnDefinitions>
+                                <Button Name="btnNewBid" Grid.Column="0"  HorizontalAlignment="Left" Margin="5,5,0,5"  Width="90" Content="New Bid"   VerticalAlignment="Center" Click="btnNewBid_Click" />
+                                <Label Grid.Column="2" Grid.Row="0" HorizontalAlignment="Right" VerticalAlignment="Center" Content="Select Bid Status:" Margin="0,2" />
+                                <ComboBox Grid.Column="3" Name="cmbStatus" Width="150" HorizontalAlignment="Left" VerticalAlignment="Center" SelectionChanged="cmbStatus_SelectedChanged" Margin="0,4"/>
+                            </Grid>
+                            <Grid Grid.Row="1">
+                                <DataGrid Name="gridBid" MouseDoubleClick="gridBid_doubleClick" AutoGenerateColumns="True" SelectionMode="Single" IsReadOnly="True" CanUserAddRows="False"   />
+
+                            </Grid>
+                        </Grid>
+                    </TabItem>
+                    <TabItem Name="tabWorkorder" Header="Workorders">
+                        <Grid>
+                            <DataGrid Name="gridWorkorder" AutoGenerateColumns="True" MouseDoubleClick="gridWorkorders_doubleClick" SelectionMode="Single" IsReadOnly="True" CanUserAddRows="False"   />
+                        </Grid>
+                    </TabItem>
+                    <TabItem Name="tabInvoice" Header="Invoices">
+                        <Grid>
+                            <DataGrid Name="gridInvoice" AutoGenerateColumns="True" SelectionMode="Single" IsReadOnly="True" CanUserAddRows="False"   />
+                        </Grid>
+                    </TabItem>
+                    <TabItem Name="tabEmployee" Header="Employees">
+                        <Grid>
+                            <DataGrid Name="gridEmployees" AutoGenerateColumns="True" SelectionMode="Single" IsReadOnly="True" CanUserAddRows="False"   />
+                        </Grid>
+                    </TabItem>
+                    <TabItem Name="tabAdmin" Header="Admin">
+                        <Grid>
+                            <Label Content="Admin stuff here" />
+                        </Grid>
+                    </TabItem>
+                </TabControl>
+                <Grid Grid.Row="2">
+                    <Label Name="lblStatusMessage" Grid.Column="0"  Content="Not Currently Logged In" />
+                    <Label Name="lblStatusDate" HorizontalAlignment="Right" Grid.Column="1" Content="Date: Aug 23, 2015" />
+                </Grid>
+            </Grid>
+        </DockPanel>
+
+    </Grid>
+</Window>

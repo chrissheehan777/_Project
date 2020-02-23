@@ -1,0 +1,47 @@
+G:\Dot Net 2\Project\CMSComputers\BusinessLogic\bin\Debug\BusinessLogic.dll
+G:\Dot Net 2\Project\CMSComputers\BusinessLogic\bin\Debug\BusinessLogic.pdb
+G:\Dot Net 2\Project\CMSComputers\BusinessLogic\obj\Debug\BusinessLogic.dll
+G:\Dot Net 2\Project\CMSComputers\BusinessLogic\obj\Debug\BusinessLogic.pdb
+G:\Dot Net 2\Project\CMSComputers\BusinessLogic\obj\Debug\BusinessLogic.csprojResolveAssemblyReference.cache
+G:\Dot Net 2\Project\CMSComputers\BusinessLogic\bin\Debug\BusinessObjects.dll
+G:\Dot Net 2\Project\CMSComputers\BusinessLogic\bin\Debug\DataAccessObjects.dll
+G:\Dot Net 2\Project\CMSComputers\BusinessLogic\bin\Debug\BusinessObjects.pdb
+G:\Dot Net 2\Project\CMSComputers\BusinessLogic\bin\Debug\DataAccessObjects.pdb
+C:\Users\cmsheeha\Google Drive\Kirkwood\Dot Net 2\Project\CMSComputers\BusinessLogic\bin\Debug\BusinessLogic.dll
+C:\Users\cmsheeha\Google Drive\Kirkwood\Dot Net 2\Project\CMSComputers\BusinessLogic\bin\Debug\BusinessLogic.pdb
+C:\Users\cmsheeha\Google Drive\Kirkwood\Dot Net 2\Project\CMSComputers\BusinessLogic\bin\Debug\BusinessObjects.dll
+C:\Users\cmsheeha\Google Drive\Kirkwood\Dot Net 2\Project\CMSComputers\BusinessLogic\bin\Debug\DataAccessObjects.dll
+C:\Users\cmsheeha\Google Drive\Kirkwood\Dot Net 2\Project\CMSComputers\BusinessLogic\bin\Debug\BusinessObjects.pdb
+C:\Users\cmsheeha\Google Drive\Kirkwood\Dot Net 2\Project\CMSComputers\BusinessLogic\bin\Debug\DataAccessObjects.pdb
+C:\Users\cmsheeha\Google Drive\Kirkwood\Dot Net 2\Project\CMSComputers\BusinessLogic\obj\Debug\BusinessLogic.csprojResolveAssemblyReference.cache
+C:\Users\cmsheeha\Google Drive\Kirkwood\Dot Net 2\Project\CMSComputers\BusinessLogic\obj\Debug\BusinessLogic.dll
+C:\Users\cmsheeha\Google Drive\Kirkwood\Dot Net 2\Project\CMSComputers\BusinessLogic\obj\Debug\BusinessLogic.pdb
+F:\CMSComputers\BusinessLogic\bin\Debug\BusinessLogic.dll
+F:\CMSComputers\BusinessLogic\bin\Debug\BusinessLogic.pdb
+F:\CMSComputers\BusinessLogic\bin\Debug\BusinessObjects.dll
+F:\CMSComputers\BusinessLogic\bin\Debug\DataAccessObjects.dll
+F:\CMSComputers\BusinessLogic\bin\Debug\BusinessObjects.pdb
+F:\CMSComputers\BusinessLogic\bin\Debug\DataAccessObjects.pdb
+F:\CMSComputers\BusinessLogic\obj\Debug\BusinessLogic.csprojResolveAssemblyReference.cache
+F:\CMSComputers\BusinessLogic\obj\Debug\BusinessLogic.dll
+F:\CMSComputers\BusinessLogic\obj\Debug\BusinessLogic.pdb
+F:\Dot Net 3\_Project\CMSComputers\BusinessLogic\bin\Debug\BusinessLogic.dll
+F:\Dot Net 3\_Project\CMSComputers\BusinessLogic\bin\Debug\BusinessLogic.pdb
+F:\Dot Net 3\_Project\CMSComputers\BusinessLogic\bin\Debug\BusinessObjects.dll
+F:\Dot Net 3\_Project\CMSComputers\BusinessLogic\bin\Debug\DataAccessObjects.dll
+F:\Dot Net 3\_Project\CMSComputers\BusinessLogic\bin\Debug\BusinessObjects.pdb
+F:\Dot Net 3\_Project\CMSComputers\BusinessLogic\bin\Debug\DataAccessObjects.pdb
+F:\Dot Net 3\_Project\CMSComputers\BusinessLogic\obj\Debug\BusinessLogic.csprojResolveAssemblyReference.cache
+F:\Dot Net 3\_Project\CMSComputers\BusinessLogic\obj\Debug\BusinessLogic.dll
+F:\Dot Net 3\_Project\CMSComputers\BusinessLogic\obj\Debug\BusinessLogic.pdb
+C:\Users\cshee\Google Drive\_Project\CMSComputers\BusinessLogic\bin\Debug\BusinessLogic.dll
+C:\Users\cshee\Google Drive\_Project\CMSComputers\BusinessLogic\bin\Debug\BusinessLogic.pdb
+C:\Users\cshee\Google Drive\_Project\CMSComputers\BusinessLogic\bin\Debug\BusinessObjects.dll
+C:\Users\cshee\Google Drive\_Project\CMSComputers\BusinessLogic\bin\Debug\DataAccessObjects.dll
+C:\Users\cshee\Google Drive\_Project\CMSComputers\BusinessLogic\bin\Debug\BusinessObjects.pdb
+C:\Users\cshee\Google Drive\_Project\CMSComputers\BusinessLogic\bin\Debug\DataAccessObjects.pdb
+C:\Users\cshee\Google Drive\_Project\CMSComputers\BusinessLogic\obj\Debug\BusinessLogic.csprojAssemblyReference.cache
+C:\Users\cshee\Google Drive\_Project\CMSComputers\BusinessLogic\obj\Debug\BusinessLogic.csproj.CoreCompileInputs.cache
+C:\Users\cshee\Google Drive\_Project\CMSComputers\BusinessLogic\obj\Debug\BusinessLogic.csproj.CopyComplete
+C:\Users\cshee\Google Drive\_Project\CMSComputers\BusinessLogic\obj\Debug\BusinessLogic.dll
+C:\Users\cshee\Google Drive\_Project\CMSComputers\BusinessLogic\obj\Debug\BusinessLogic.pdb

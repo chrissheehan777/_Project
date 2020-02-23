@@ -1,0 +1,519 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CMSComputersModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Bid">
+    <Key>
+      <PropertyRef Name="BidID" />
+    </Key>
+    <Property Name="BidID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="BidDate" Type="DateTime" Precision="0" />
+    <Property Name="ExpectedDate" Type="DateTime" Precision="0" />
+    <Property Name="CustomerID" Type="Int32" Nullable="false" />
+    <Property Name="Description" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="EmployeeID" Type="Int32" Nullable="false" />
+    <Property Name="Status" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="ContractType" Type="String" MaxLength="1" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="ContractAmount" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="PartsMarkup" Type="Int32" />
+    <Property Name="HourlyRate" Type="Decimal" Precision="19" Scale="4" />
+    <NavigationProperty Name="Customer" Relationship="Self.FK_Bid_CustomerID" FromRole="Bid" ToRole="Customer" />
+    <NavigationProperty Name="Employee" Relationship="Self.FK_Bid_EmployeeID" FromRole="Bid" ToRole="Employee" />
+    <NavigationProperty Name="Workorders" Relationship="Self.FK_Workorder_BidID" FromRole="Bid" ToRole="Workorder" />
+  </EntityType>
+  <EntityType Name="ContractType">
+    <Key>
+      <PropertyRef Name="ContractTypeID" />
+    </Key>
+    <Property Name="ContractTypeID" Type="String" MaxLength="1" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="ContractTypeName" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="Status" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+  </EntityType>
+  <EntityType Name="Customer">
+    <Key>
+      <PropertyRef Name="CustomerID" />
+    </Key>
+    <Property Name="CustomerID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FirstName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="LastName" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="BusinessName" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Address" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="City" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="State" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Name="Zip" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="LocalPhone" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="EmailAddress" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Active" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="Bids" Relationship="Self.FK_Bid_CustomerID" FromRole="Customer" ToRole="Bid" />
+    <NavigationProperty Name="Invoices" Relationship="Self.FK_Invoice_CustomerID" FromRole="Customer" ToRole="Invoice" />
+    <NavigationProperty Name="Workorders" Relationship="Self.FK_Workorder_CustomerID" FromRole="Customer" ToRole="Workorder" />
+  </EntityType>
+  <EntityType Name="Employee">
+    <Key>
+      <PropertyRef Name="EmployeeID" />
+    </Key>
+    <Property Name="EmployeeID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FirstName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="LastName" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="LocalPhone" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="EmailAddress" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="UserName" Type="String" MaxLength="256" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Password" Type="String" MaxLength="128" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Active" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="Bids" Relationship="Self.FK_Bid_EmployeeID" FromRole="Employee" ToRole="Bid" />
+    <NavigationProperty Name="RoleAssignments" Relationship="Self.FK_Assignments_EmployeeID" FromRole="Employee" ToRole="RoleAssignments" />
+    <NavigationProperty Name="Invoices" Relationship="Self.FK_Invoice_EmployeeID" FromRole="Employee" ToRole="Invoice" />
+    <NavigationProperty Name="Workorders" Relationship="Self.FK_Workorder_EmployeeID" FromRole="Employee" ToRole="Workorder" />
+    <NavigationProperty Name="WorkorderHours" Relationship="Self.FK_WorkorderHours_EmployeeID" FromRole="Employee" ToRole="WorkorderHours" />
+    <NavigationProperty Name="WorkorderItems" Relationship="Self.FK_WorkorderItems_EmployeeID" FromRole="Employee" ToRole="WorkorderItems" />
+  </EntityType>
+  <EntityType Name="Invoice">
+    <Key>
+      <PropertyRef Name="InvoiceNo" />
+    </Key>
+    <Property Name="InvoiceNo" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="InvoiceDate" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="CustomerID" Type="Int32" Nullable="false" />
+    <Property Name="Description" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="EmployeeID" Type="Int32" Nullable="false" />
+    <Property Name="InvoiceTotal" Type="Decimal" Precision="10" Scale="4" Nullable="false" />
+    <Property Name="ContractType" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <NavigationProperty Name="Customer" Relationship="Self.FK_Invoice_CustomerID" FromRole="Invoice" ToRole="Customer" />
+    <NavigationProperty Name="Employee" Relationship="Self.FK_Invoice_EmployeeID" FromRole="Invoice" ToRole="Employee" />
+  </EntityType>
+  <EntityType Name="InvoiceLine">
+    <Key>
+      <PropertyRef Name="InvoiceNo" />
+      <PropertyRef Name="LineNumber" />
+    </Key>
+    <Property Name="InvoiceNo" Type="Int32" Nullable="false" />
+    <Property Name="LineNumber" Type="Int32" Nullable="false" />
+    <Property Name="LineDescription" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Quantity" Type="Int32" Nullable="false" />
+    <Property Name="Price" Type="Decimal" Precision="10" Scale="4" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Role">
+    <Key>
+      <PropertyRef Name="RoleID" />
+    </Key>
+    <Property Name="RoleID" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Description" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="RoleAssignments" Relationship="Self.FK_Assignments_RoleID1" FromRole="Role" ToRole="RoleAssignments" />
+  </EntityType>
+  <EntityType Name="RoleAssignment">
+    <Key>
+      <PropertyRef Name="EmployeeID" />
+      <PropertyRef Name="RoleID" />
+    </Key>
+    <Property Name="EmployeeID" Type="Int32" Nullable="false" />
+    <Property Name="RoleID" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Active" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="Employee" Relationship="Self.FK_Assignments_EmployeeID" FromRole="RoleAssignments" ToRole="Employee" />
+    <NavigationProperty Name="Role" Relationship="Self.FK_Assignments_RoleID1" FromRole="RoleAssignments" ToRole="Role" />
+  </EntityType>
+  <EntityType Name="status">
+    <Key>
+      <PropertyRef Name="StatusID" />
+    </Key>
+    <Property Name="StatusID" Type="Int32" Nullable="false" />
+    <Property Name="statusName" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Workorder">
+    <Key>
+      <PropertyRef Name="WorkorderID" />
+    </Key>
+    <Property Name="WorkorderID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="WorkorderDate" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="BidID" Type="Int32" />
+    <Property Name="ExpectedDate" Type="DateTime" Precision="0" />
+    <Property Name="CustomerID" Type="Int32" Nullable="false" />
+    <Property Name="Description" Type="String" MaxLength="150" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="EmployeeID" Type="Int32" Nullable="false" />
+    <Property Name="WorkOrderStatus" Type="String" MaxLength="1" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="ContractType" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="ContractAmount" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="PartsMarkup" Type="Int32" />
+    <Property Name="HourlyRate" Type="Decimal" Precision="19" Scale="4" />
+    <NavigationProperty Name="Bid" Relationship="Self.FK_Workorder_BidID" FromRole="Workorder" ToRole="Bid" />
+    <NavigationProperty Name="Customer" Relationship="Self.FK_Workorder_CustomerID" FromRole="Workorder" ToRole="Customer" />
+    <NavigationProperty Name="Employee" Relationship="Self.FK_Workorder_EmployeeID" FromRole="Workorder" ToRole="Employee" />
+  </EntityType>
+  <EntityType Name="WorkorderHour">
+    <Key>
+      <PropertyRef Name="WorkorderID" />
+      <PropertyRef Name="Date" />
+      <PropertyRef Name="EmployeeID" />
+    </Key>
+    <Property Name="WorkorderID" Type="Int32" Nullable="false" />
+    <Property Name="Date" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="EmployeeID" Type="Int32" Nullable="false" />
+    <Property Name="HoursBid" Type="Int32" Nullable="false" />
+    <Property Name="PricePerHour" Type="Decimal" Precision="10" Scale="4" />
+    <NavigationProperty Name="Employee" Relationship="Self.FK_WorkorderHours_EmployeeID" FromRole="WorkorderHours" ToRole="Employee" />
+  </EntityType>
+  <EntityType Name="WorkorderItem">
+    <Key>
+      <PropertyRef Name="WorkorderID" />
+      <PropertyRef Name="Date" />
+      <PropertyRef Name="ItemName" />
+    </Key>
+    <Property Name="WorkorderID" Type="Int32" Nullable="false" />
+    <Property Name="Date" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="ItemName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="EmployeeID" Type="Int32" Nullable="false" />
+    <Property Name="Quantity" Type="Int32" Nullable="false" />
+    <Property Name="ItemCost" Type="Decimal" Precision="10" Scale="4" />
+    <Property Name="ItemSalePrice" Type="Decimal" Precision="10" Scale="4" Nullable="false" />
+    <NavigationProperty Name="Employee" Relationship="Self.FK_WorkorderItems_EmployeeID" FromRole="WorkorderItems" ToRole="Employee" />
+  </EntityType>
+  <Association Name="FK_Bid_CustomerID">
+    <End Role="Customer" Type="Self.Customer" Multiplicity="1" />
+    <End Role="Bid" Type="Self.Bid" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customer">
+        <PropertyRef Name="CustomerID" />
+      </Principal>
+      <Dependent Role="Bid">
+        <PropertyRef Name="CustomerID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Bid_EmployeeID">
+    <End Role="Employee" Type="Self.Employee" Multiplicity="1" />
+    <End Role="Bid" Type="Self.Bid" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="EmployeeID" />
+      </Principal>
+      <Dependent Role="Bid">
+        <PropertyRef Name="EmployeeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Workorder_BidID">
+    <End Role="Bid" Type="Self.Bid" Multiplicity="0..1" />
+    <End Role="Workorder" Type="Self.Workorder" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Bid">
+        <PropertyRef Name="BidID" />
+      </Principal>
+      <Dependent Role="Workorder">
+        <PropertyRef Name="BidID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Invoice_CustomerID">
+    <End Role="Customer" Type="Self.Customer" Multiplicity="1" />
+    <End Role="Invoice" Type="Self.Invoice" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customer">
+        <PropertyRef Name="CustomerID" />
+      </Principal>
+      <Dependent Role="Invoice">
+        <PropertyRef Name="CustomerID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Workorder_CustomerID">
+    <End Role="Customer" Type="Self.Customer" Multiplicity="1" />
+    <End Role="Workorder" Type="Self.Workorder" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customer">
+        <PropertyRef Name="CustomerID" />
+      </Principal>
+      <Dependent Role="Workorder">
+        <PropertyRef Name="CustomerID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Assignments_EmployeeID">
+    <End Role="Employee" Type="Self.Employee" Multiplicity="1" />
+    <End Role="RoleAssignments" Type="Self.RoleAssignment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="EmployeeID" />
+      </Principal>
+      <Dependent Role="RoleAssignments">
+        <PropertyRef Name="EmployeeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Invoice_EmployeeID">
+    <End Role="Employee" Type="Self.Employee" Multiplicity="1" />
+    <End Role="Invoice" Type="Self.Invoice" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="EmployeeID" />
+      </Principal>
+      <Dependent Role="Invoice">
+        <PropertyRef Name="EmployeeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Workorder_EmployeeID">
+    <End Role="Employee" Type="Self.Employee" Multiplicity="1" />
+    <End Role="Workorder" Type="Self.Workorder" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="EmployeeID" />
+      </Principal>
+      <Dependent Role="Workorder">
+        <PropertyRef Name="EmployeeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_WorkorderHours_EmployeeID">
+    <End Role="Employee" Type="Self.Employee" Multiplicity="1" />
+    <End Role="WorkorderHours" Type="Self.WorkorderHour" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="EmployeeID" />
+      </Principal>
+      <Dependent Role="WorkorderHours">
+        <PropertyRef Name="EmployeeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_WorkorderItems_EmployeeID">
+    <End Role="Employee" Type="Self.Employee" Multiplicity="1" />
+    <End Role="WorkorderItems" Type="Self.WorkorderItem" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="EmployeeID" />
+      </Principal>
+      <Dependent Role="WorkorderItems">
+        <PropertyRef Name="EmployeeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Assignments_RoleID1">
+    <End Role="Role" Type="Self.Role" Multiplicity="1" />
+    <End Role="RoleAssignments" Type="Self.RoleAssignment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Role">
+        <PropertyRef Name="RoleID" />
+      </Principal>
+      <Dependent Role="RoleAssignments">
+        <PropertyRef Name="RoleID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="CMSComputersEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Bids" EntityType="Self.Bid" />
+    <EntitySet Name="ContractTypes" EntityType="Self.ContractType" />
+    <EntitySet Name="Customers" EntityType="Self.Customer" />
+    <EntitySet Name="Employees" EntityType="Self.Employee" />
+    <EntitySet Name="Invoices" EntityType="Self.Invoice" />
+    <EntitySet Name="InvoiceLines" EntityType="Self.InvoiceLine" />
+    <EntitySet Name="Roles" EntityType="Self.Role" />
+    <EntitySet Name="RoleAssignments" EntityType="Self.RoleAssignment" />
+    <EntitySet Name="status" EntityType="Self.status" />
+    <EntitySet Name="Workorders" EntityType="Self.Workorder" />
+    <EntitySet Name="WorkorderHours" EntityType="Self.WorkorderHour" />
+    <EntitySet Name="WorkorderItems" EntityType="Self.WorkorderItem" />
+    <AssociationSet Name="FK_Bid_CustomerID" Association="Self.FK_Bid_CustomerID">
+      <End Role="Customer" EntitySet="Customers" />
+      <End Role="Bid" EntitySet="Bids" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Bid_EmployeeID" Association="Self.FK_Bid_EmployeeID">
+      <End Role="Employee" EntitySet="Employees" />
+      <End Role="Bid" EntitySet="Bids" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Workorder_BidID" Association="Self.FK_Workorder_BidID">
+      <End Role="Bid" EntitySet="Bids" />
+      <End Role="Workorder" EntitySet="Workorders" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Invoice_CustomerID" Association="Self.FK_Invoice_CustomerID">
+      <End Role="Customer" EntitySet="Customers" />
+      <End Role="Invoice" EntitySet="Invoices" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Workorder_CustomerID" Association="Self.FK_Workorder_CustomerID">
+      <End Role="Customer" EntitySet="Customers" />
+      <End Role="Workorder" EntitySet="Workorders" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Assignments_EmployeeID" Association="Self.FK_Assignments_EmployeeID">
+      <End Role="Employee" EntitySet="Employees" />
+      <End Role="RoleAssignments" EntitySet="RoleAssignments" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Invoice_EmployeeID" Association="Self.FK_Invoice_EmployeeID">
+      <End Role="Employee" EntitySet="Employees" />
+      <End Role="Invoice" EntitySet="Invoices" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Workorder_EmployeeID" Association="Self.FK_Workorder_EmployeeID">
+      <End Role="Employee" EntitySet="Employees" />
+      <End Role="Workorder" EntitySet="Workorders" />
+    </AssociationSet>
+    <AssociationSet Name="FK_WorkorderHours_EmployeeID" Association="Self.FK_WorkorderHours_EmployeeID">
+      <End Role="Employee" EntitySet="Employees" />
+      <End Role="WorkorderHours" EntitySet="WorkorderHours" />
+    </AssociationSet>
+    <AssociationSet Name="FK_WorkorderItems_EmployeeID" Association="Self.FK_WorkorderItems_EmployeeID">
+      <End Role="Employee" EntitySet="Employees" />
+      <End Role="WorkorderItems" EntitySet="WorkorderItems" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Assignments_RoleID1" Association="Self.FK_Assignments_RoleID1">
+      <End Role="Role" EntitySet="Roles" />
+      <End Role="RoleAssignments" EntitySet="RoleAssignments" />
+    </AssociationSet>
+    <FunctionImport Name="sp_CheckPassword" ReturnType="Collection(Int32)">
+      <Parameter Name="username" Mode="In" Type="String" />
+      <Parameter Name="password" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_GetEmployeeInfo" ReturnType="Collection(CMSComputersModel.sp_GetEmployeeInfo_Result)">
+      <Parameter Name="username" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_GetRoles" ReturnType="Collection(String)">
+      <Parameter Name="username" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_UpdatePassword">
+      <Parameter Name="username" Mode="In" Type="String" />
+      <Parameter Name="newpassword" Mode="In" Type="String" />
+      <Parameter Name="oldpassword" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="spInsertBid">
+      <Parameter Name="BidDate" Mode="In" Type="DateTime" />
+      <Parameter Name="ExpectedDate" Mode="In" Type="DateTime" />
+      <Parameter Name="CustomerID" Mode="In" Type="Int32" />
+      <Parameter Name="Description" Mode="In" Type="String" />
+      <Parameter Name="EmployeeID" Mode="In" Type="Int32" />
+      <Parameter Name="Status" Mode="In" Type="String" />
+      <Parameter Name="ContractType" Mode="In" Type="String" />
+      <Parameter Name="ContractAmount" Mode="In" Type="Decimal" />
+      <Parameter Name="PartsMarkup" Mode="In" Type="Int32" />
+      <Parameter Name="HourlyRate" Mode="In" Type="Decimal" />
+    </FunctionImport>
+    <FunctionImport Name="spInsertCustomer">
+      <Parameter Name="FirstName" Mode="In" Type="String" />
+      <Parameter Name="LastName" Mode="In" Type="String" />
+      <Parameter Name="BusinessName" Mode="In" Type="String" />
+      <Parameter Name="Address" Mode="In" Type="String" />
+      <Parameter Name="City" Mode="In" Type="String" />
+      <Parameter Name="State" Mode="In" Type="String" />
+      <Parameter Name="Zip" Mode="In" Type="String" />
+      <Parameter Name="LocalPhone" Mode="In" Type="String" />
+      <Parameter Name="EmailAddress" Mode="In" Type="String" />
+      <Parameter Name="Active" Mode="In" Type="Boolean" />
+    </FunctionImport>
+    <FunctionImport Name="spInsertEmployee">
+      <Parameter Name="firstname" Mode="In" Type="String" />
+      <Parameter Name="LastName" Mode="In" Type="String" />
+      <Parameter Name="LocalPhone" Mode="In" Type="String" />
+      <Parameter Name="EmailAddress" Mode="In" Type="String" />
+      <Parameter Name="username" Mode="In" Type="String" />
+      <Parameter Name="Password" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="spInsertWorkorder">
+      <Parameter Name="WorkorderDate" Mode="In" Type="DateTime" />
+      <Parameter Name="BidID" Mode="In" Type="Int32" />
+      <Parameter Name="ExpectedDate" Mode="In" Type="DateTime" />
+      <Parameter Name="CustomerID" Mode="In" Type="Int32" />
+      <Parameter Name="Description" Mode="In" Type="String" />
+      <Parameter Name="EmployeeID" Mode="In" Type="Int32" />
+      <Parameter Name="WorkorderStatus" Mode="In" Type="String" />
+      <Parameter Name="ContractType" Mode="In" Type="String" />
+      <Parameter Name="ContractAmount" Mode="In" Type="Decimal" />
+      <Parameter Name="PartsMarkup" Mode="In" Type="Int32" />
+      <Parameter Name="HourlyRate" Mode="In" Type="Decimal" />
+    </FunctionImport>
+    <FunctionImport Name="spUpdateBid">
+      <Parameter Name="bidID" Mode="In" Type="Int32" />
+      <Parameter Name="BidDate" Mode="In" Type="DateTime" />
+      <Parameter Name="ExpectedDate" Mode="In" Type="DateTime" />
+      <Parameter Name="CustomerID" Mode="In" Type="Int32" />
+      <Parameter Name="Description" Mode="In" Type="String" />
+      <Parameter Name="EmployeeID" Mode="In" Type="Int32" />
+      <Parameter Name="Status" Mode="In" Type="String" />
+      <Parameter Name="ContractType" Mode="In" Type="String" />
+      <Parameter Name="ContractAmount" Mode="In" Type="Decimal" />
+      <Parameter Name="PartsMarkup" Mode="In" Type="Int32" />
+      <Parameter Name="HourlyRate" Mode="In" Type="Decimal" />
+      <Parameter Name="Original_BidDate" Mode="In" Type="DateTime" />
+      <Parameter Name="Original_ExpectedDate" Mode="In" Type="DateTime" />
+      <Parameter Name="Original_CustomerID" Mode="In" Type="Int32" />
+      <Parameter Name="Original_Description" Mode="In" Type="String" />
+      <Parameter Name="Original_EmployeeID" Mode="In" Type="Int32" />
+      <Parameter Name="Original_Status" Mode="In" Type="String" />
+      <Parameter Name="Original_ContractType" Mode="In" Type="String" />
+      <Parameter Name="Original_ContractAmount" Mode="In" Type="Decimal" />
+      <Parameter Name="Original_PartsMarkup" Mode="In" Type="Int32" />
+      <Parameter Name="Original_HourlyRate" Mode="In" Type="Decimal" />
+    </FunctionImport>
+    <FunctionImport Name="spUpdateBidStatus">
+      <Parameter Name="bidID" Mode="In" Type="Int32" />
+      <Parameter Name="Status" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="spUpdateCustomer">
+      <Parameter Name="CustomerID" Mode="In" Type="Int32" />
+      <Parameter Name="FirstName" Mode="In" Type="String" />
+      <Parameter Name="LastName" Mode="In" Type="String" />
+      <Parameter Name="BusinessName" Mode="In" Type="String" />
+      <Parameter Name="Address" Mode="In" Type="String" />
+      <Parameter Name="City" Mode="In" Type="String" />
+      <Parameter Name="State" Mode="In" Type="String" />
+      <Parameter Name="Zip" Mode="In" Type="String" />
+      <Parameter Name="LocalPhone" Mode="In" Type="String" />
+      <Parameter Name="Active" Mode="In" Type="Boolean" />
+      <Parameter Name="EmailAddress" Mode="In" Type="String" />
+      <Parameter Name="original_FirstName" Mode="In" Type="String" />
+      <Parameter Name="original_LastName" Mode="In" Type="String" />
+      <Parameter Name="original_BusinessName" Mode="In" Type="String" />
+      <Parameter Name="original_Address" Mode="In" Type="String" />
+      <Parameter Name="original_City" Mode="In" Type="String" />
+      <Parameter Name="original_State" Mode="In" Type="String" />
+      <Parameter Name="original_Zip" Mode="In" Type="String" />
+      <Parameter Name="original_LocalPhone" Mode="In" Type="String" />
+      <Parameter Name="original_EmailAddress" Mode="In" Type="String" />
+      <Parameter Name="original_Active" Mode="In" Type="Boolean" />
+    </FunctionImport>
+    <FunctionImport Name="spUpdateEmployee">
+      <Parameter Name="EmployeeID" Mode="In" Type="Int32" />
+      <Parameter Name="firstname" Mode="In" Type="String" />
+      <Parameter Name="LastName" Mode="In" Type="String" />
+      <Parameter Name="LocalPhone" Mode="In" Type="String" />
+      <Parameter Name="EmailAddress" Mode="In" Type="String" />
+      <Parameter Name="username" Mode="In" Type="String" />
+      <Parameter Name="Password" Mode="In" Type="String" />
+      <Parameter Name="active" Mode="In" Type="Boolean" />
+      <Parameter Name="original_firstname" Mode="In" Type="String" />
+      <Parameter Name="original_LastName" Mode="In" Type="String" />
+      <Parameter Name="original_LocalPhone" Mode="In" Type="String" />
+      <Parameter Name="original_EmailAddress" Mode="In" Type="String" />
+      <Parameter Name="original_username" Mode="In" Type="String" />
+      <Parameter Name="original_Password" Mode="In" Type="String" />
+      <Parameter Name="original_active" Mode="In" Type="Boolean" />
+    </FunctionImport>
+    <FunctionImport Name="spUpdateWorkorder">
+      <Parameter Name="workorderID" Mode="In" Type="Int32" />
+      <Parameter Name="workorderdate" Mode="In" Type="DateTime" />
+      <Parameter Name="bidID" Mode="In" Type="Int32" />
+      <Parameter Name="ExpectedDate" Mode="In" Type="DateTime" />
+      <Parameter Name="CustomerID" Mode="In" Type="Int32" />
+      <Parameter Name="Description" Mode="In" Type="String" />
+      <Parameter Name="EmployeeID" Mode="In" Type="Int32" />
+      <Parameter Name="workorderstatus" Mode="In" Type="String" />
+      <Parameter Name="ContractType" Mode="In" Type="String" />
+      <Parameter Name="ContractAmount" Mode="In" Type="Decimal" />
+      <Parameter Name="PartsMarkup" Mode="In" Type="Int32" />
+      <Parameter Name="HourlyRate" Mode="In" Type="Decimal" />
+      <Parameter Name="Original_workorderdate" Mode="In" Type="DateTime" />
+      <Parameter Name="Original_bidID" Mode="In" Type="Int32" />
+      <Parameter Name="Original_ExpectedDate" Mode="In" Type="DateTime" />
+      <Parameter Name="Original_CustomerID" Mode="In" Type="Int32" />
+      <Parameter Name="Original_Description" Mode="In" Type="String" />
+      <Parameter Name="Original_EmployeeID" Mode="In" Type="Int32" />
+      <Parameter Name="Original_workorderstatus" Mode="In" Type="String" />
+      <Parameter Name="Original_ContractType" Mode="In" Type="String" />
+      <Parameter Name="Original_ContractAmount" Mode="In" Type="Decimal" />
+      <Parameter Name="Original_PartsMarkup" Mode="In" Type="Int32" />
+      <Parameter Name="Original_HourlyRate" Mode="In" Type="Decimal" />
+    </FunctionImport>
+  </EntityContainer>
+  <ComplexType Name="sp_GetEmployeeInfo_Result">
+    <Property Type="Int32" Name="EmployeeID" Nullable="false" />
+    <Property Type="String" Name="FirstName" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="LastName" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="LocalPhone" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="EmailAddress" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="UserName" Nullable="false" MaxLength="256" />
+    <Property Type="String" Name="Password" Nullable="false" MaxLength="128" />
+    <Property Type="Boolean" Name="Active" Nullable="false" />
+  </ComplexType>
+</Schema>
