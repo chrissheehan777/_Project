@@ -33,3 +33,5 @@ C:\Users\cshee\Google Drive\_Project Github Clone\CMSComputers\CMSComputersASPCO
 C:\Users\cshee\Google Drive\_Project Github Clone\CMSComputers\CMSComputersASPCORE\obj\Debug\netcoreapp3.1\CMSComputersASPCORE.dll
 C:\Users\cshee\Google Drive\_Project Github Clone\CMSComputers\CMSComputersASPCORE\obj\Debug\netcoreapp3.1\CMSComputersASPCORE.pdb
 C:\Users\cshee\Google Drive\_Project Github Clone\CMSComputers\CMSComputersASPCORE\obj\Debug\netcoreapp3.1\CMSComputersASPCORE.csproj.CopyComplete
+C:\Users\cshee\Google Drive\_Project Github Clone\CMSComputers\CMSComputersASPCORE\obj\Debug\netcoreapp3.1\CMSComputersASPCORE.csproj.CoreCompileInputs.cache
+C:\Users\cshee\Google Drive\_Project Github Clone\CMSComputers\CMSComputersASPCORE\obj\Debug\netcoreapp3.1\CMSComputersASPCORE.genruntimeconfig.cache
