@@ -45,3 +45,13 @@ C:\Users\cshee\Google Drive\_Project\CMSComputers\BusinessLogic\obj\Debug\Busine
 C:\Users\cshee\Google Drive\_Project\CMSComputers\BusinessLogic\obj\Debug\BusinessLogic.csproj.CopyComplete
 C:\Users\cshee\Google Drive\_Project\CMSComputers\BusinessLogic\obj\Debug\BusinessLogic.dll
 C:\Users\cshee\Google Drive\_Project\CMSComputers\BusinessLogic\obj\Debug\BusinessLogic.pdb
+C:\Users\cshee\Google Drive\_Project Github Clone\CMSComputers\BusinessLogic\bin\Debug\BusinessLogic.dll
+C:\Users\cshee\Google Drive\_Project Github Clone\CMSComputers\BusinessLogic\bin\Debug\BusinessLogic.pdb
+C:\Users\cshee\Google Drive\_Project Github Clone\CMSComputers\BusinessLogic\bin\Debug\BusinessObjects.dll
+C:\Users\cshee\Google Drive\_Project Github Clone\CMSComputers\BusinessLogic\bin\Debug\DataAccessObjects.dll
+C:\Users\cshee\Google Drive\_Project Github Clone\CMSComputers\BusinessLogic\bin\Debug\BusinessObjects.pdb
+C:\Users\cshee\Google Drive\_Project Github Clone\CMSComputers\BusinessLogic\bin\Debug\DataAccessObjects.pdb
+C:\Users\cshee\Google Drive\_Project Github Clone\CMSComputers\BusinessLogic\obj\Debug\BusinessLogic.csprojAssemblyReference.cache
+C:\Users\cshee\Google Drive\_Project Github Clone\CMSComputers\BusinessLogic\obj\Debug\BusinessLogic.csproj.CopyComplete
+C:\Users\cshee\Google Drive\_Project Github Clone\CMSComputers\BusinessLogic\obj\Debug\BusinessLogic.dll
+C:\Users\cshee\Google Drive\_Project Github Clone\CMSComputers\BusinessLogic\obj\Debug\BusinessLogic.pdb
