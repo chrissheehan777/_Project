@@ -5,16 +5,23 @@ a.navbar-brand {
   white-space: normal;
   text-align: center;
   word-break: break-all;
+  font-style: italic;
 }
 
 /* Provide sufficient contrast against white background */
 a {
     /*color: #0366d6;*/
-    color: #d41d1d;
+    /*color: #d41d1d;*/
+    color: white;
+
+}
+a hover {
+    color:red;
 }
 
 .btn-primary {
-  color: #fff;
+    color: #ffd800;
+  /*color: #fff;*/
   background-color: #1b6ec2;
   border-color: #1861ac;
 }
