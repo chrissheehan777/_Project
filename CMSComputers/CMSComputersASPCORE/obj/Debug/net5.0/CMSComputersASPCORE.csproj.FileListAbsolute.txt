@@ -24,7 +24,6 @@ C:\Users\cshee\OneDrive\Documents\_Project\CMSComputers\CMSComputersASPCORE\bin\
 C:\Users\cshee\OneDrive\Documents\_Project\CMSComputers\CMSComputersASPCORE\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
 C:\Users\cshee\OneDrive\Documents\_Project\CMSComputers\CMSComputersASPCORE\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
 C:\Users\cshee\OneDrive\Documents\_Project\CMSComputers\CMSComputersASPCORE\bin\Debug\net5.0\Newtonsoft.Json.dll
-C:\Users\cshee\OneDrive\Documents\_Project\CMSComputers\CMSComputersASPCORE\bin\Debug\net5.0\NuGet.Frameworks.dll
 C:\Users\cshee\OneDrive\Documents\_Project\CMSComputers\CMSComputersASPCORE\bin\Debug\net5.0\System.Composition.AttributedModel.dll
 C:\Users\cshee\OneDrive\Documents\_Project\CMSComputers\CMSComputersASPCORE\bin\Debug\net5.0\System.Composition.Convention.dll
 C:\Users\cshee\OneDrive\Documents\_Project\CMSComputers\CMSComputersASPCORE\bin\Debug\net5.0\System.Composition.Hosting.dll
@@ -112,3 +111,10 @@ C:\Users\cshee\OneDrive\Documents\_Project\CMSComputers\CMSComputersASPCORE\obj\
 C:\Users\cshee\OneDrive\Documents\_Project\CMSComputers\CMSComputersASPCORE\obj\Debug\net5.0\ref\CMSComputersASPCORE.dll
 C:\Users\cshee\OneDrive\Documents\_Project\CMSComputers\CMSComputersASPCORE\obj\Debug\net5.0\CMSComputersASPCORE.pdb
 C:\Users\cshee\OneDrive\Documents\_Project\CMSComputers\CMSComputersASPCORE\obj\Debug\net5.0\CMSComputersASPCORE.genruntimeconfig.cache
+C:\Users\cshee\OneDrive\Documents\_Project\CMSComputers\CMSComputersASPCORE\bin\Debug\net5.0\Humanizer.dll
+C:\Users\cshee\OneDrive\Documents\_Project\CMSComputers\CMSComputersASPCORE\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\cshee\OneDrive\Documents\_Project\CMSComputers\CMSComputersASPCORE\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\cshee\OneDrive\Documents\_Project\CMSComputers\CMSComputersASPCORE\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\cshee\OneDrive\Documents\_Project\CMSComputers\CMSComputersASPCORE\obj\Debug\net5.0\Razor\Views\Home\Services.cshtml.g.cs
+C:\Users\cshee\OneDrive\Documents\_Project\CMSComputers\CMSComputersASPCORE\bin\Debug\net5.0\wwwroot\Images\Logo.png
+C:\Users\cshee\OneDrive\Documents\_Project\CMSComputers\CMSComputersASPCORE\bin\Debug\net5.0\wwwroot\Images\LogoWhite.png

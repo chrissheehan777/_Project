@@ -11,50 +11,55 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-dark border-bottom box-shadow mb-3">
+            
             <div class="container">
-
-                <a class="navbar-brand" asp-area="" asp-controller="Home" style="color:white; padding-right:40px" asp-action="Index">CMS Computer Solutions</a>
+                <a href="@Url.Action("Index", "")" class="navbar-brand">
+                    <img width="300" height="50" src="~/Images/LogoWhite.png" title="Logo" alt="" />
+                </a>
+                <!--<a class="navbar-brand" asp-area="" asp-controller="Home" style="color:white; padding-right:40px" asp-action="Index">CMS Computer Solutions</a>-->
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <!--set up navbar CMS 12/16/2020-->
-                    <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
-                        <ul class="navbar-nav flex-grow-1">
-                            <li class="nav-item">
-                                @{ if (ViewBag.ID == 1)
-                                    {
-                                        <a id="navIndex" style="background-color:#595959; color:black;" class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                                    }
-                                    else
-                                    {
-                                        <a id="navIndex" class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                                    }
+                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                    <ul class="navbar-nav flex-grow-1">
+
+                        <li class="nav-item">
+                            @{ if (ViewBag.ID == 2)
+                                {
+                                    <a id="navServices" style="background-color:#595959; color:black;" class="nav-link active" asp-area="" asp-controller="Home" asp-action="Services">Services</a>
                                 }
-                            <li class="nav-item">
-                                @{ if (ViewBag.ID == 2)
-                                    {
-                                        <a id="navPrivacy" style="background-color:#595959;" class="nav-link active" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                                    }
-                                    else
-                                    {
-                                        <a id="navPrivacy" class="nav-link text-light active" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                                    }
+                                else
+                                {
+                                    <a id="navServices" class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Services">Services</a>
                                 }
-                            </li>
-                            <li class="nav-item">
-                                @{ if (ViewBag.ID == 3)
-                                    {
-                                        <a id="navContact" style="background-color:#595959;" class="nav-link active" asp-area="" asp-controller="Home" asp-action="ContactUs">Contact Us</a>
-                                    }
-                                    else
-                                    {
-                                        <a id="navContact" class="nav-link text-light active" asp-area="" asp-controller="Home" asp-action="ContactUs">Contact Us</a>
-                                    }
+                            }
+                        </li>
+                        <li class="nav-item">
+                            @{ if (ViewBag.ID == 3)
+                                {
+                                    <a id="navPrivacy" style="background-color:#595959;" class="nav-link active" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
                                 }
-                            </li>
-                        </ul>
-                    </div>
+                                else
+                                {
+                                    <a id="navPrivacy" class="nav-link text-light active" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                                }
+                            }
+                        </li>
+                        <li class="nav-item">
+                            @{ if (ViewBag.ID == 4)
+                                {
+                                    <a id="navContact" style="background-color:#595959;" class="nav-link active" asp-area="" asp-controller="Home" asp-action="ContactUs">Contact</a>
+                                }
+                                else
+                                {
+                                    <a id="navContact" class="nav-link text-light active" asp-area="" asp-controller="Home" asp-action="ContactUs">Contact</a>
+                                }
+                            }
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
     </header>

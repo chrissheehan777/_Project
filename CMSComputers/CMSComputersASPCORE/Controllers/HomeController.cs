@@ -30,15 +30,21 @@ namespace CMSComputersASPCORE.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Services()
         {
             ViewBag.ID = 2;
             return View();
         }
 
-        public IActionResult ContactUs()
+        public IActionResult Privacy()
         {
             ViewBag.ID = 3;
+            return View();
+        }
+
+        public IActionResult ContactUs()
+        {
+            ViewBag.ID = 4;
             return View();
         }
 
