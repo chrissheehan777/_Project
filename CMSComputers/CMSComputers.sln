@@ -23,7 +23,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessObjects", "DataAc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMSComputersMVC", "CMSComputersMVC\CMSComputersMVC.csproj", "{7770C877-5D6F-464E-9331-0BB14942B471}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMSComputersASPCORE", "CMSComputersASPCORE\CMSComputersASPCORE.csproj", "{256FFE8C-B6B9-4B44-B950-AAFD882BDD92}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CMSComputersASPCORE", "CMSComputersASPCORE\CMSComputersASPCORE.csproj", "{256FFE8C-B6B9-4B44-B950-AAFD882BDD92}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{96C8D99C-C8DE-43E6-B527-C6B76497476D}"
+	ProjectSection(SolutionItems) = preProject
+		Needs.txt = Needs.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

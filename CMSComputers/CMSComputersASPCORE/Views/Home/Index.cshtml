@@ -2,7 +2,42 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div style="background-image: url('https://localhost:44327/Images/it-project-management.jpg'); height:180px; background-size:cover; ">
 </div>
+
+    <div  class="text-center">
+        <br /><br /><br />
+        <h1 class="display-4"><b>Welcome</b></h1>
+        <p>
+            <h2>The Solution to Your IT Needs</h2>
+            As a company that consults with you to provide the best possible network solutions for your business, we don’t have a typical list of services to pick and choose from. This is because we’re willing to do whatever makes the most sense for your business by creating a truly customized plan of hardware and connections. That being said, here are some of the more common actions we take when establishing networks for our clients:
+        </p>
+    </div>
+    <div class="row home-intro-div">
+        <div class="dark-div round col-lg-4 col-md-6 col-sm-11 center-block">
+
+            <ul class="list-unstyled">
+                @{
+                    if (User.Identity.IsAuthenticated)
+                    {
+                        <li class="text-center"><h3>Announcements</h3></li>
+                        var al10 = ViewBag.Announcements;
+                        foreach (var a in al10)
+                        {
+                            <li class="text-center" style="padding-bottom: 1em;"> @a.Announcement </li>
+                        }
+                    }
+                    else
+                    {
+                        <li class="text-center"><h3>Welcome!</h3></li>
+                        <li class="text-center">Please log in to continue.</li>
+                    }
+
+                }
+
+
+            </ul>
+
+        </div>
+    </div>
+

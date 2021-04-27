@@ -578,11 +578,9 @@ pre code {
 }
 
 .container-fluid {
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  max-width: 1600px; /* or 950px */
 }
 
 .row {
@@ -4238,7 +4236,7 @@ input[type="button"].btn-block {
   vertical-align: middle;
   content: "";
   background: no-repeat center center;
-  background-size: 100% 100%;
+  background-size: 1mb00% 100%;
 }
 
 @media (max-width: 575.98px) {
